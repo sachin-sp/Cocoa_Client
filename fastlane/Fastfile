@@ -1,0 +1,30 @@
+# https://docs.fastlane.tools
+default_platform(:ios)
+
+platform :ios do
+  lane :update_devices do
+    register_devices(
+      devices: {
+        "Bear" => "00008030-001641680AD8802E",
+        "Office" => "ced4643f7adc554bb2e9463c7a9b16d21837e759",
+        "Ferret" => "897213078eab30da761498d9708d3be2c37f8b08",
+        "Leopard" => "c9a9cd54a5d3438b8f647fa60b088f1d2ce43993",
+        "Tigress" => "75f0141addfda32210efe81e976ec166681ae75b"
+      }
+    )
+  end
+
+  lane :update_app_id do
+    produce(
+      username: ENV['FASTLANE_USER'],
+      app_name: 'Cocoacasts',
+      language: 'English',
+      app_version: '1.0',
+      sku: 'be.codefoundry.cocoacasts')
+  end
+
+  desc "Create Provisioning Profiles and Certificates for Development"
+  lane :generate_profiles_and_certificates_for_development do
+    match(type: "development", platform: "ios", readonly: false, app_identifier: ["be.codefoundry.cocoacasts"])
+  end
+end

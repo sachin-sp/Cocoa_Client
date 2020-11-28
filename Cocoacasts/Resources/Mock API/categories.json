@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Standard Library",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/building-a-weather-application-from-scratch-mocking-network-requests-with-mockingjay/building-a-weather-application-from-scratch-mocking-network-requests-with-mockingjay.svg",
+        "number_of_episodes": 16
+    },
+    {
+        "id": 2,
+        "name": "Core Data",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/core-data-fundamentals-where-to-go-from-here/core-data-fundamentals-where-to-go-from-here.svg",
+        "number_of_episodes": 22
+    },
+    {
+        "id": 3,
+        "name": "Swift",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/debugging-applications-with-xcode-finding-and-resolving-memory-issues/debugging-applications-with-xcode-finding-and-resolving-memory-issues.svg",
+        "number_of_episodes": 64
+    },
+    {
+        "id": 4,
+        "name": "Xcode",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/debugging-applications-with-xcode-finding-and-resolving-memory-issues/debugging-applications-with-xcode-finding-and-resolving-memory-issues.svg",
+        "number_of_episodes": 4
+    },
+    {
+        "id": 5,
+        "name": "Model-View-ViewModel",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/debugging-applications-with-xcode-finding-and-resolving-memory-issues/debugging-applications-with-xcode-finding-and-resolving-memory-issues.svg",
+        "number_of_episodes": 14
+    },
+    {
+        "id": 6,
+        "name": "Testing",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/from-zero-to-app-store-populating-the-feed-unit-testing-the-feed-view-model/from-zero-to-app-store-populating-the-feed-unit-testing-the-feed-view-model.svg",
+        "number_of_episodes": 12
+    }
+]

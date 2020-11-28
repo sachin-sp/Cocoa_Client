@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Building a Weather Application From Scratch",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/building-a-weather-application-from-scratch-mocking-network-requests-with-mockingjay/building-a-weather-application-from-scratch-mocking-network-requests-with-mockingjay.svg",
+        "duration": 16537
+    },
+    {
+        "id": 2,
+        "name": "Core Data Fundamentals",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/core-data-fundamentals-where-to-go-from-here/core-data-fundamentals-where-to-go-from-here.svg",
+        "duration": 10521
+    },
+    {
+        "id": 3,
+        "name": "Debugging Applications With Xcode",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/debugging-applications-with-xcode-finding-and-resolving-memory-issues/debugging-applications-with-xcode-finding-and-resolving-memory-issues.svg",
+        "duration": 6635
+    },
+    {
+        "id": 4,
+        "name": "From Zero to App Store",
+        "thumbnail_url": "https://cocoacasts.s3.amazonaws.com/from-zero-to-app-store-populating-the-feed-unit-testing-the-feed-view-model/from-zero-to-app-store-populating-the-feed-unit-testing-the-feed-view-model.svg",
+        "duration": 12577
+    }
+]

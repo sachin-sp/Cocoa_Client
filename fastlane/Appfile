@@ -1,0 +1,5 @@
+# https://docs.fastlane.tools/advanced/#appfile
+app_identifier("be.codefoundry.cocoacasts")
+apple_id(ENV["FASTLANE_USER"])
+team_id "2493UGBPKJ"
+itc_team_id "230533"

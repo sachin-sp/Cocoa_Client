@@ -1,0 +1,59 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - CocoaLumberjack/Swift (3.6.0):
+    - CocoaLumberjack/Core
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - KeychainAccess (3.2.0)
+  - Kingfisher (5.9.0):
+    - Kingfisher/Core (= 5.9.0)
+  - Kingfisher/Core (5.9.0)
+  - PaperTrailLumberjack/Core (0.1.9):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack (~> 3.4)
+  - PaperTrailLumberjack/Swift (0.1.9):
+    - CocoaLumberjack/Swift (~> 3.4)
+    - PaperTrailLumberjack/Core
+  - ReachabilitySwift (4.3.0)
+  - Reveal-SDK (21)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift (~> 3.6.0)
+  - Crashlytics (~> 3.12.0)
+  - KeychainAccess (~> 3.2)
+  - Kingfisher (~> 5.9.0)
+  - PaperTrailLumberjack/Swift (~> 0.1.9)
+  - ReachabilitySwift (~> 4.3.0)
+  - Reveal-SDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+    - Crashlytics
+    - Fabric
+    - KeychainAccess
+    - Kingfisher
+    - PaperTrailLumberjack
+    - ReachabilitySwift
+    - Reveal-SDK
+  trunk:
+    - CocoaLumberjack
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
+  PaperTrailLumberjack: 449587968d5aeb3eab2d4de041ffc61ee2d49f25
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Reveal-SDK: 3523e0eb7c562811c51bb71da6e523a6373702c8
+
+PODFILE CHECKSUM: 87055e1d5acadc0fbc0b4f7a8c55d19555a1b215
+
+COCOAPODS: 1.8.4
